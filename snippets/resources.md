@@ -1,0 +1,1 @@
+* https://github.com/xabikos/vscode-javascript/blob/master/package.json

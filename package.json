@@ -1,0 +1,35 @@
+{
+    "name": "apollo-graphql-snippets",
+    "description": "Apollo Graphql snippets",
+    "version": "0.0.1",
+    "displayName": "Apollo Graphql (React) snippets",
+    "publisher": "code4mk",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/code4mk/apollo-graphql-snippet"
+    },
+    "engines": {
+      "vscode": "0.10.x"
+    },
+    "categories": [
+      "Snippets"
+    ],
+    "contributes": {
+      "snippets": [
+        {
+          "language": "javascript",
+          "path": "./snippets/snippets.json"
+        }, {
+          "language": "typescript",
+          "path": "./snippets/snippets.json"
+        }, {
+          "language": "javascriptreact",
+          "path": "./snippets/snippets.json"
+        }, {
+          "language": "typescriptreact",
+          "path": "./snippets/snippets.json"
+        }
+      ]
+    }
+}
