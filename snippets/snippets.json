@@ -31,5 +31,41 @@
           "}"
         ],
         "description": "apollo__client"
+    },
+    "apollo__lazy_query": {
+      "prefix": "ap_lazy",
+      "body": [
+        "    const YOUR_QUERY = gql`",
+        "    query OpertionName {",
+        "        ",
+        "    }",
+        "    `",
+        "    const [ YourAction, {} ] = useLazyQuery(YOUR_QUERY,{",
+        "        onCompleted(res){",
+        "            // do someting",
+        "        },",
+        "        onError(error){",
+        "            // do something",
+        "        }",
+        "    })"
+      ],
+      "description": "apollo__lazy_query"
+    },
+    "apollo__mutation": {
+      "prefix": "ap_mutation",
+      "body": [
+        "    const YOUR_QUERY = gql`",
+        "    your mutation",
+        "    `",
+        "    const [ YourAction, {} ] = useMutation(YOUR_QUERY,{",
+        "        onCompleted(res){",
+        "            // do someting",
+        "        },",
+        "        onError(error){",
+        "            // do something",
+        "        }",
+        "    })"
+      ],
+      "description": "apollo__mutation"
     }
 }
