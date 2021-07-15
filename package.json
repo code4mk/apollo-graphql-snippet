@@ -1,7 +1,7 @@
 {
     "name": "apollo-graphql-snippets",
     "description": "Apollo Graphql snippets",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "displayName": "Apollo Graphql (React) snippets",
     "publisher": "code4mk",
     "license": "MIT",
