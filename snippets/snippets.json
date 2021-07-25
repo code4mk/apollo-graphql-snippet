@@ -32,6 +32,22 @@
         ],
         "description": "apollo__client"
     },
+    "apollo__query": {
+      "prefix": "ap_query",
+      "body": [
+        "const YOUR_QUERY = gql`",
+        "query OpertionName {",
+        "            ",
+        "}",
+        "`",
+        "const { loading, error, data} = useQuery(YOUR_QUERY,{",
+        "    variable:{",
+        "        // your variables",
+        "    }",
+        "})"
+      ],
+      "description": "apollo__query"
+    },
     "apollo__lazy_query": {
       "prefix": "ap_lazy",
       "body": [
