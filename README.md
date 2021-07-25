@@ -1,5 +1,5 @@
 # Apollo Graphql Snippets (React)
-Appolo react graphql snippets for vscode lovers.
+Apollo react graphql snippets for vscode lovers.
 
 # commands 
 
