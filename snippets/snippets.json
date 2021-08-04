@@ -40,7 +40,7 @@
         "            ",
         "}",
         "`",
-        "const { loading, error, data} = useQuery(YOUR_QUERY,{",
+        "const { loading, error, data } = useQuery(YOUR_QUERY,{",
         "    variable:{",
         "        // your variables",
         "    }",
@@ -67,6 +67,25 @@
       ],
       "description": "apollo__lazy_query"
     },
+    "apollo__lazy_query_typescript": {
+      "prefix": "ap_tlazy",
+      "body": [
+        "const YOUR_QUERY = gql`",
+        "query OpertionName {",
+        "        ",
+        "}",
+        "`",
+        "const [ YourAction, {} ] = useLazyQuery(YOUR_QUERY,{",
+        "    onCompleted(res: any){",
+        "        // do someting",
+        "    },",
+        "    onError(error: any){",
+        "        // do something",
+        "    }",
+        "})"
+      ],
+      "description": "apollo__lazy_query_typescript"
+    },
     "apollo__mutation": {
       "prefix": "ap_mutation",
       "body": [
@@ -83,5 +102,22 @@
         "})"
       ],
       "description": "apollo__mutation"
+    },
+    "apollo__mutation_typescript": {
+      "prefix": "ap_tmutation",
+      "body": [
+        "const YOUR_QUERY = gql`",
+        "your mutation",
+        "`",
+        "const [ YourAction, {} ] = useMutation(YOUR_QUERY,{",
+        "    onCompleted(res: any){",
+        "        // do someting",
+        "    },",
+        "    onError(error: any){",
+        "        // do something",
+        "    }",
+        "})"
+      ],
+      "description": "apollo__mutation_typescript"
     }   
 }
